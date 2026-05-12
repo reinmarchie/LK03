@@ -24,7 +24,7 @@ public class ShopManagementSystem {
         // TRANSAKSI 1
         Transaction trans1 = new Transaction("T001");
         trans1.addItem(catalog[5], 3); // Chips x3
-        trans1.addItem(catalog[2], 4);    // Smartphone x1
+        trans1.addItem(catalog[2], 4);    // Smartphone x4
         trans1.addItem(catalog[0]);    // T-Shirt x1
 
         double totalTrans1 = trans1.processSale();
